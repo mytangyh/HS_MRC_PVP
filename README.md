@@ -10,11 +10,14 @@ python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pymouse PyUser
 ### 使用说明
 1. 炉石窗口大小548 * 439，使用 `SetHearthstonePos.exe`初始化即可。
 2. 进入匹配界面，执行`python pvp.py`即可正常挂机。
-3. window系统使用缩放的，请自行修改zoom的值，如系统缩放`150%`，填`1.5`。自行修改delay投降延迟。
+
+### 注
+1. window系统使用缩放的，请自行修改zoom的值，如系统缩放`150%`，填`1.5`。
+2. 自行修改delay投降延迟。
 
 ### 启用power.log
-如果使用过炉石盒子、HDT等记牌器，忽略这一步。
-在目录`%LOCALAPPDATA%\Blizzard\Hearthstone`下创建一个`log.config`，内容如下
+  如果使用过炉石盒子、HDT等记牌器，忽略这一步。
+  在目录`%LOCALAPPDATA%\Blizzard\Hearthstone`下创建一个`log.config`，内容如下
 ```config
 [Arena]
 LogLevel=1
