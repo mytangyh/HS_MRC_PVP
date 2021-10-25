@@ -81,7 +81,7 @@ def gaming(flag=0,zoom = zoom):
                 print(flagTimesleep)
             if flagGameover >= 4:
                 return
-            if flagTimesleep >= 123:                
+            if flagTimesleep >= 100:                
                 movClick(289, 151)
                 movClick(289, 151)
                 movClick(157, 199)
