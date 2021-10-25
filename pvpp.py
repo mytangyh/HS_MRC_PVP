@@ -72,7 +72,7 @@ def gaming(flag=0):
                 print(flagTimesleep)
             if flagGameover >= 4:
                 return
-            if flagTimesleep >= 123:                
+            if flagTimesleep >= 100:                
                 movClick(289, 151)
                 movClick(289, 151)
                 movClick(157, 199)
@@ -83,8 +83,8 @@ def gaming(flag=0):
                 movClick(382, 363)
                 movClick(427, 204)
                 movClick(427, 204)
-                loc = findHS()
-                pyautogui.screenshot(f"./hs/pvp/{time.time()}.png",region=(loc[0],loc[1],548*zoom,439*zoom))
+                # loc = findHS()
+                # pyautogui.screenshot(f"./hs/pvp/{time.time()}.png",region=(loc[0],loc[1],548*zoom,439*zoom))
                 movClick(284, 243)
                 movClick(284, 243)
                 return
