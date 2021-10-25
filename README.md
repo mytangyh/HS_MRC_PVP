@@ -14,6 +14,7 @@ python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pymouse PyUser
 ### 注
 1. window系统使用缩放的，请自行修改zoom的值，如系统缩放`150%`，填`1.5`。
 2. 自行修改delay投降延迟。
+3. `pvpp.py`是不使用pymouse的版本。
 
 ### 启用power.log
   如果使用过炉石盒子、HDT等记牌器，忽略这一步。
