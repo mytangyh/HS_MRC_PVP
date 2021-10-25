@@ -43,7 +43,7 @@ def movClick(x, y, t=0.7, zoom = zoom):
     time.sleep(t)
 
 
-def gaming(flag=0):
+def gaming(flag=0,zoom = zoom):
     flagGameover = 0
     flagTimesleep = 0
     with open(LOGFILE, 'r', encoding=encoding) as log:
