@@ -102,11 +102,11 @@ def gaming(flag=0,zoom = zoom):
 
 if __name__ == '__main__':
     print(time.time())
-    try:
-        os.mkdir("./hs")
-        os.mkdir("./hs/pvp")
-    except:
-        pass
+    # try:
+        # os.mkdir("./hs")
+        # os.mkdir("./hs/pvp")
+    # except:
+        # pass
     while True:
         try:
             movClick(443, 368)
