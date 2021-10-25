@@ -92,8 +92,8 @@ def gaming(flag=0,zoom = zoom):
                 movClick(382, 363)
                 movClick(427, 204)
                 movClick(427, 204)
-                loc = findHS()
-                pyautogui.screenshot(f"./hs/pvp/{time.time()}.png",region=(loc[0],loc[1],548*zoom,439*zoom))
+                # loc = findHS()
+                # pyautogui.screenshot(f"./hs/pvp/{time.time()}.png",region=(loc[0],loc[1],548*zoom,439*zoom))
                 movClick(284, 243)
                 movClick(284, 243)
                 return
