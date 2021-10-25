@@ -1,7 +1,7 @@
 # HS_MRC_PVP
 炉石佣兵pvp自动投降
 
-### python3依赖
+### python3.7依赖
 ```bash
 python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pyautogui Pillow
 python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pymouse PyUserinput pypiwin32
