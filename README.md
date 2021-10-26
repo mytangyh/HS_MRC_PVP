@@ -1,10 +1,11 @@
 # HS_MRC_PVP
-炉石佣兵pvp自动投降，极低概率暴雪秋后算账。
+炉石佣兵PVP自动投降。
 
 ### python3.7依赖
 ```bash
 python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pyautogui Pillow
 python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pymouse PyUserinput pypiwin32
+python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pywin32
 ```
 
 ### 使用说明
@@ -41,8 +42,8 @@ Verbose=True
 
 ## 注
 1. window系统使用缩放的，请自行修改zoom的值，如系统缩放`150%`，填`1.5`。
-2. 自行修改delay投降延迟。
+2. 自行修改delay投降延迟，过小可能无法点击`认输`。
 3. `pvpp.py`不使用pymouse的版本，如果你的Python>3.7，且运行报错缺少依赖，可以尝试使用。
-4. 开宝箱延迟在`if flagTimesleep >= 100:`，根据需要调低数值。编写逻辑：长时间不匹配，即开宝箱。
+4. 开宝箱延迟在`if flagTimesleep >= 100:`，根据需要调低数值。编写逻辑：长时间不匹配，即开宝箱。数值过小可能导致匹配异常。
 5. 炉石安装非默认目录时，请修改`LOGFILE`值与实际`Power.log`一致。
 
